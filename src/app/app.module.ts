@@ -12,6 +12,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import { ContactListComponent } from './contact-list/contact-list.component';
 
 @NgModule({
   imports: [
@@ -23,6 +24,7 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent },
+      { path: 'contacts', component: ContactListComponent },
     ]),
   ],
   declarations: [
@@ -34,6 +36,7 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
     CartComponent,
     ShippingComponent,
     BottomBarComponent,
+    ContactListComponent,
   ],
   bootstrap: [AppComponent],
 })
